@@ -12,7 +12,7 @@ class RecipesController < ApplicationController
   end
 
   def create
-    recipe = Recipe.find()
+    recipe = Recipe.find(params[:id])
   end
 
   private
