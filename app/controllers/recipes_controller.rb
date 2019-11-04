@@ -16,6 +16,6 @@ class RecipesController < ApplicationController
 
   private
     def recipe_params
-      params.require()
+      params.require(:recipe)
     end
 end
