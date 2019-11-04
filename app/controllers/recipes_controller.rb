@@ -12,7 +12,8 @@ class RecipesController < ApplicationController
   end
 
   def create
-    recipe = Recipe.find(params[:id])
+    recipe = Recipe.create()
+
   end
 
   private
